@@ -4,8 +4,6 @@ Created on Thu Jun 17 14:54:03 2021
 @author: Jim Carlson
 """
 
-import numpy as np
-
 def prime_list(n):  #using lists, 'while' loop and Seive of Eratosthenes
     '''generate list of primes <= n, where n is an integer >= 2
        n <= 10**6 is a practical limit
@@ -18,6 +16,9 @@ def prime_list(n):  #using lists, 'while' loop and Seive of Eratosthenes
         if len(xxx) == 0 or xxx[0] > n**0.5: #sequence of 'or' is important
             break
     return  ppp+xxx
+
+
+import numpy as np
 
 def prime_np(n): #relatively easy to understand; generates a list of primes <= n
     '''generate list of primes <= n, limit of 10**9 (but 10**8 much faster)'''
