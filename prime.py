@@ -4,7 +4,7 @@ Created on Thu Jun 17 14:54:03 2021
 @author: Jim Carlson
 """
 
-def prime_list(n):  #using lists, 'while' loop and Seive of Erotothenes
+def prime_list(n):  #using lists, 'while' loop and Seive of Eratosthenes
     '''generate list of primes <= n, where n is an integer >= 2
        n <= 10**6 is a practical limit
     '''
